@@ -1,0 +1,192 @@
+body{
+	font-family: 'Allerta', sans-serif;
+	margin:0;
+}
+th{
+	background:#273B47;
+	color: white;
+	padding:10px;
+}
+td{
+	padding:20px;
+	text-align:justify;
+}
+table, th, td{
+	border: 1px solid #273B47;
+	border-collapse:collapse;
+}
+.contenedor{
+	margin:auto;
+	width:800px;
+}
+.titulo{
+	font-size:70px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top:40px;
+	margin-bottom:0;
+	padding-top:70px;
+	white-space: 30px;
+}
+.titulo spam{
+	text-decoration:underline;
+}
+.logotipo{
+	margin-left:0;
+}
+.resumen{
+	font-size:24 px;
+	margin-top: 0;
+}
+.menu{
+	font-size:18px;
+	margin-left:70px;
+	float:right;
+	padding-top: 20px;
+}
+.menu li{
+	margin-left:30px;
+}
+.menu a{
+	text-decoration:none;	
+	color:white;
+}
+.menu li:before{
+	content:'•';
+	color:white;
+	font-size:25px;
+}
+.tipodisplay{
+	display: inline-block;
+}
+.portada{
+	height:500px;
+	color:white;
+}
+.background{
+	background-image:url('../images/background.png');
+	background-size:cover;
+}
+.titulo1{
+	font-size:35px;
+	font-family: 'Montserrat', sans-serif;
+}
+.tipoguitarra{
+	font-size:50px;
+	color:#1F313C;
+}
+.guitarras{
+	margin-bottom:60px !important;
+}
+.derecha{
+	float: right;
+	position:relative;
+	top:-111px;
+}
+.izquierda{
+	float:left;
+	position:relative;
+	top:-30px;
+	right:75px;
+}
+.guitarras article{
+	border:1px solid #1F313C;
+	border-radius: 8px;
+	padding:10px;
+	margin:10px 10px 30px 10px;
+	height:230px;
+}
+.contenedorAcustica{
+	padding-left:20px;
+	margin-right:370px;
+}
+.contenedorAcustica ol{
+	padding-left:25px;
+}
+.clasica{
+	heigth:150px;
+}
+.contenedorClasica{
+	margin-left:370px;
+	position:relative;
+	bottom:30px;
+}
+.contenedorClasica ol{
+	padding-right:25px;
+}
+.boton{
+	margin-bottom: 70px;
+	font-size:18px;
+	border-radius:12px;
+	background: #fcabab; 
+	background: -moz-linear-gradient(left,  #fcabab 0%, #fc5f5f 46%, #ff1616 100%);
+	background: -webkit-linear-gradient(left,  #fcabab 0%,#fc5f5f 46%,#ff1616 100%);
+	background: linear-gradient(to right,  #fcabab 0%,#fc5f5f 46%,#ff1616 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcabab', endColorstr='#ff1616',GradientType=1 ); 
+	color:white;
+	border:none;
+	padding:7px 12px;
+	cursor:pointer;
+	width: 100px;
+	text-decoration:none;
+}
+.footer{
+	color:white;
+	background: #273B47;
+}
+.footer .contenedor{
+	display:flex;
+	justify-content:space-between;
+}
+.contacto{
+	width:300px;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+}
+.contacto img{
+	display:block;
+	margin:80px 10px 0 0;
+}
+.contacto strong{
+	display:block;
+}
+.contacto a{
+	color:white;
+	text-decoration:none;
+	margin:10px 10px 140px 0;
+}
+.formulario{
+	display:flex;
+	justify-content:flex-start;
+	width:420px;
+	padding:50px 10px;
+}
+.dato, .asunto{
+	display:flex;
+	flex-direction:column;
+}
+.dato{
+	margin-right:15px;
+}
+.opciones{
+	font-size:14px;
+}
+.formulario label, input, textarea{
+	margin-bottom:10px;
+	outline:0;
+}
+input:focus, textarea:focus{
+	background:lightgray;
+}
+.sexo{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.asunto{
+	align-item:flex-start;
+}
+.tabla{
+	width:100%;
+	margin:50px 0;
+}
+

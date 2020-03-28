@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        	<title>INVIE-Tus nejores guitarras!!</title>
+        	<meta charset = "utf-8"/>
+               	<link rel ="stylesheet" href ="css/invie.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap|Allerta&display=swap" rel="stylesheet">
+    	</head>
+     	<body>
+			<section id="portada" class="portada background">
+				<header id = "header" class="header contenedor">
+                	<figure class="logotipo tipodisplay"><img src= "images/invie.png" width ="186" height ="60" alt ="Invie logotipo"/></figure>
+                	<nav class ="menu tipodisplay">
+                     		<ul >
+                         		<li class = "tipodisplay"><a href = "index.html">Home</a></li>
+					<li class = "tipodisplay"><a href = "#guitarras">Guitarras</a></li>
+					<li class = "tipodisplay"><a href = "precio.html">Precios</a></li>
+				</ul>
+			</nav>
+		</header>
+				<div class = "contenedor">
+				<h1 class="titulo">Guitarras <spam>invie</spam>sibles</h1>
+				<h3 class ="resumen">Sé la estrella de rock que siempre quisiste ser</h3>
+				<a href="#guitarras" class="boton">Conoce más</a>
+				</div>
+			</section>
+			<section id="guitarras" class ="guitarras contenedor">
+				<h2 class ="titulo1">Nuestras Guitarras</h2>
+				<article><!--Invie Acustica-->
+					<img src="images/invie-acustica.png" width ="350" alt ="Guitarra acustica" class="derecha"/>
+					<div class="contenedorAcustica">
+						<h3 class= "tipoguitarra">Invie Acústica</h3>
+						<ol>
+							<li>Estilo vintage</li>
+							<li>Madera pura</li>
+							<li>Incluye estuche invisible de aluminio</li>
+						</ol>
+					</div>
+				</article>
+				<article><!--Invie Clasica-->
+					<img src="images/invie-classic.png" height: "320" width ="400" alt ="Guitarra clasica" class= "izquierda"/>
+					<div class="contenedorClasica">
+						<h3 class= "tipoguitarra clasica">Invie Clásica</h3>
+						<ol>
+							<li>Estilo vintage</li>
+							<li>Liviana</li>
+							<li>Inicia tu camino como Rockstar</li>
+						</ol>
+					</div>
+				</article>
+			</section>
+			<footer class="footer">
+				<div class="contenedor">
+					<div class= "contacto">
+						<img src="images/invie-white.png" alt="Logotipo Invie Blanco" class="logoBlanco"/>
+						<a href = "tel=+593999120108"><strong>Telefono</strong><spam>0999120108</spam></a>
+						<a href = "mailto=joseline-mls@hotmail.es"><strong>E-mail</strong><spam>joseline-mls@hotmail.es</spam></a>
+					</div>
+					<form class="formulario">
+						<div class="dato">
+							<label for="nombre">Nombre:</label>
+							<input type="text" id="nombre" name="nombre" required/>
+							<label for="email">E-mail:</label>
+							<input type="email" id="email" name="email" required/>
+							<div class="sexo">
+								<label for="mujer">
+									<input type="radio" id="mujer" name="sexo" value="mujer" checked />
+								mujer</label>
+								<label for="hombre">
+									<input type="radio" id="hombre" name="sexo" value="hombre"/>
+								hombre</label>
+							</div>
+							<div class="opciones">
+								<label for="cotizacion">
+									<input type="checkbox" id="cotizacion" name="opcion" value="cotizacion" checked />
+								cotizacion</label>
+								<label for="reclamos">
+									<input type="checkbox" id="reclamos" name="opcion" value="reclamos"/>
+								reclamos</label>
+								<label for="comentarios">
+									<input type="checkbox" id="comentarios" name="opcion" value="comentarios" />
+								comentarios</label>
+								<label for="otros">
+									<input type="checkbox" id="otros" name="opcion" value="otros"/>
+								otros</label>
+							</div>							
+						</div>
+						<div class="asunto">
+							<label for="asunto">Asunto:</label>
+							<textarea name="asunto" id="asunto" cols="30" rows="10"></textarea>
+							<input type="submit" value= "Enviar" class="boton">
+						</div>
+					</form>
+				</div>
+			</footer>
+     	</body>
+</html>
